@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: black;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px  0 0 0; 
+}
+
+nav{
+    display: flex;
+}
+a{
+    padding: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.picture__logo{
+    width: 160px;
+}
+.picture__src, .picture__notify, .picture__avatar{
+    width: 40px;
+}
+i{
+    font-size: 30px;
+    transform: rotate(80deg);
+}
