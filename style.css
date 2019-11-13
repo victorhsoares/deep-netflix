@@ -33,3 +33,21 @@ i{
     font-size: 30px;
     transform: rotate(80deg);
 }
+.prime__box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/irmandade.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prime__picture{
+    width: 20vw;
+    height: 20vh;
+}
+.box__list{
+    display: flex;
+}
+.box__list--picture{
+    width: 19vw;
+    height: 39vh;
+}
