@@ -30,21 +30,46 @@ a{
     width: 40px;
 }
 i{
+    color: white;
     font-size: 30px;
     transform: rotate(80deg);
+}
+li{
+    color: white;
+}
+
+button{
+    color: #c93e36;
+    margin-left: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #00000080;
+}
+.prime__paragraph{
+    color: #c93e36;
 }
 .prime__box{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/irmandade.jpeg);
+    background-image: url(assets/irmandade11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.prime__downbox{
+    width: 21vw;
+    padding: 80px;
 }
 .prime__picture{
     width: 20vw;
     height: 20vh;
+    
 }
-.box__list{
+.titlebox{
+    color: white;
+    font-size: 35px;
+    margin: 20px 0 0 20px;
+}
+.box__list,{
     display: flex;
 }
 .box__list--picture{
