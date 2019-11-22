@@ -28,10 +28,11 @@
             </a>  
         </nav>
         <div class="info">
-            <img class="picture__src" src="assets/search.png" alt="search">
-            <a href="#">
-                <li>SÉRIES</li>
-            </a>
+            <div class="info__down">
+                <img class="picture__src" src="assets/search.png" alt="search" onclick="search()">
+                <input type="text" placeholder="Títulos,Gênero">
+            </div>    
+            <p>Séries</p>
             <img class="picture__notify" src="assets/notify.png" alt="Sino">
             <img class="picture__avatar" src="assets/avatar.jpeg" alt="perfil">
             <i>&#10151;</i>
@@ -51,37 +52,65 @@
             </div>
         </section>
         <section class="box__list">
-            <section>
-                <div>
-                    <h1 class="titlebox">Populares na Netflix</h1>
-                </div>
+            <div>
+                <h1 class="titlebox">Populares na Netflix</h1>
+            </div>
+            <section class="box__serie">
                 <img class="box__list--picture" src="assets/lcasa.jpg" alt="La casa de papel">
                 <img class="box__list--picture" src="assets/bbad.jpeg" alt="Breaking Bad">
                 <img class="box__list--picture" src="assets/narcos.jpeg" alt="Narcos">
                 <img class="box__list--picture" src="assets/vikins.jpeg" alt="Vikings">
                 <img class="box__list--picture" src="assets/house.jpeg" alt="House of cards">
+                <p class="rightboxone" onclick="rightboxone()">&gt;</p>
             </section>
-            <section class="box__filmes">
+            <section class="box__serie--slide">
+                    <img class="box__list--picture" src="assets/lcasa.jpg" alt="La casa de papel">
+                    <img class="box__list--picture" src="assets/bbad.jpeg" alt="Breaking Bad">
+                    <img class="box__list--picture" src="assets/narcos.jpeg" alt="Narcos">
+                    <img class="box__list--picture" src="assets/vikins.jpeg" alt="Vikings">
+                    <img class="box__list--picture" src="assets/house.jpeg" alt="House of cards">
+                    <p class="leftboxone" onclick="leftboxone()">&gt;</p>
+                </section>
+            <section class="box__movie">
                 <div>
-                        <h1 class="titlebox">Filmes</h1>
+                    <h1 class="titlebox">Filmes</h1>
+                </div>
                         <img class="box__list--picture" src="assets/aV.jpeg" alt="Avengers">
                         <img class="box__list--picture" src="assets/CA.jpeg" alt="Capitão América">
                         <img class="box__list--picture" src="assets/GG.jpeg" alt="Guardiões da Galáxia">
                         <img class="box__list--picture" src="assets/CF.jpeg" alt="Círculo de Fogo">
                         <img class="box__list--picture" src="assets/JC.jpeg" alt="John Carter">
-                </div>
+                        <p class="rightboxtwo" onclick="rightboxtwo()">&gt;</p>
             </section>
+            <section class="box__movie--slide">
+                    <img class="box__list--picture" src="assets/aV.jpeg" alt="Avengers">
+                    <img class="box__list--picture" src="assets/CA.jpeg" alt="Capitão América">
+                    <img class="box__list--picture" src="assets/GG.jpeg" alt="Guardiões da Galáxia">
+                    <img class="box__list--picture" src="assets/CF.jpeg" alt="Círculo de Fogo">
+                    <img class="box__list--picture" src="assets/JC.jpeg" alt="John Carter">
+                    <p class="leftboxtwo" onclick="leftboxtwo()">&gt;</p>
+             </section>
             <section class="box__infantil">
-                    <div>
-                            <h1 class="titlebox">Infantil</h1>
-                            <img class="box__list--picture" src="assets/galinha.jpeg" alt="">
-                            <img class="box__list--picture" src="assets/irmao.jpg" alt="">
-                            <img class="box__list--picture" src="assets/bob.jpeg" alt="">
-                            <img class="box__list--picture" src="assets/peppa.jpeg" alt="">
-                            <img class="box__list--picture" src="assets/shoun.jpeg" alt="">
-                    </div>
-                </section>
+                <div>
+                    <h1 class="titlebox">Infantil</h1>
+                </div>
+                    <img class="box__list--picture" src="assets/galinha.jpeg" alt="Galinha Pintadinha">
+                    <img class="box__list--picture" src="assets/irmao.jpg" alt="Irmão do Jorel">
+                    <img class="box__list--picture" src="assets/bob.jpeg" alt="Bob Esponja">
+                    <img class="box__list--picture" src="assets/peppa.jpeg" alt="Peppa Pig">
+                    <img class="box__list--picture" src="assets/shoun.jpeg" alt="Shoun">
+                    <p class="rightboxthree" onclick="rightboxthree()">&gt;</p>
+            </section>
+            <section class="box__infantil--slide">
+                    <img class="box__list--picture" src="assets/galinha.jpeg" alt="Galinha Pintadinha">
+                    <img class="box__list--picture" src="assets/irmao.jpg" alt="Irmão do Jorel">
+                    <img class="box__list--picture" src="assets/bob.jpeg" alt="Bob Esponja">
+                    <img class="box__list--picture" src="assets/peppa.jpeg" alt="Peppa Pig">
+                    <img class="box__list--picture" src="assets/shoun.jpeg" alt="Shoun">
+                    <p class="leftboxthree" onclick="leftboxthree()">&gt;</p>
+            </section>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>

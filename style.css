@@ -76,3 +76,7 @@ button{
     width: 19vw;
     height: 39vh;
 }
+.rightboxone, .leftboxone ,.rightboxtwo, .leftboxtwo ,.rightboxthree, .leftboxthree {
+    font-size: 80px;
+    margin: 20px 0 0 0;
+}
